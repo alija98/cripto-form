@@ -1,0 +1,125 @@
+.step {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.step-left {
+  flex: 3;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.step-right {
+  height: 100%;
+  flex: 2;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.logo {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.step-actions {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 0 2rem 1rem;
+  margin-top: 50px;
+}
+
+.step-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #4077c1;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+.total-wrapper {
+  width: 100%;
+  margin-top: 20px;
+}
+.total-wrapper div {
+  background-color: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+}
+.total-select-container {
+  width: 100%;
+  display: flex;
+}
+.payment-address {
+  width: 100%;
+  background: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0599808);
+  border-radius: 4px;
+  display: flex;
+  margin-top: 20px;
+}
+.payment-address input {
+  flex: 4;
+  padding: 10px;
+  border: none;
+  padding: 20px;
+  color: #787a81;
+}
+.payment-address button {
+  background-color: #4077c1;
+  color: white;
+  flex: 1;
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+}
+.transaction-wrappper {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  padding-top: 30px;
+}
+.transaction-wrappper h2 {
+  color: #3f4048;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.transaction-wrappper p {
+  color: #787a81;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.material-icons.blue {
+  color: #4077c1;
+  font-size: 64px;
+  font-weight: 1000;
+}
+.transaction-id {
+  color: #4077c1 !important;
+}
+.refresh {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  border: none;
+  width: 30%;
+  background-color: #4077c1;
+  color: #fff;
+  padding: 10px;
+}

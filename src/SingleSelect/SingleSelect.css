@@ -1,0 +1,33 @@
+.select-wrapper {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.single-option {
+  background-color: #fff;
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+}
+.single-option h4 {
+  padding-left: 10px;
+  color: #53545a;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-icons.white {
+  color: #fff;
+  font-size: 20px;
+}
