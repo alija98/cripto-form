@@ -45,13 +45,13 @@ const CriptoPaymentStep: React.FC<StepProps> = ({
   const totalValue = selectedOption.value && selectedOption.value * price;
 
   const postSelectedOptions = () => {
-    //IF I have api, i would make api post call here with selected Options as a body Data
+    //If I have api, i would make api post call here with selected Options as a body Data
     //If api call was successful, I would got payment address from it
     //Here i am mocking like i got payment address
     setPaymentAddress("0xa81fsdjka7fds2231kx09766");
   };
   const confirmTransaction = () => {
-    //Here i would make api call and get transactionID, If i have error i would show some error, here I dont do it
+    //Here I would make api call and get transactionID, If  have error i would show some error, here I dont do it
     setPaymentStatus((prev) => {
       return {
         ...prev,
@@ -61,7 +61,7 @@ const CriptoPaymentStep: React.FC<StepProps> = ({
     });
   };
   const isPaymentSuccessfull = () => {
-    //here if i got data that transaction is successfull i would show success message, or with error, error message
+    //here if I got data that transaction is successfull I would show success message, or with error, error message
     setPaymentStatus((prev) => {
       return {
         ...prev,

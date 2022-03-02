@@ -1,7 +1,6 @@
 import React from "react";
-import { useAppDispatch, useAppSelector } from "../Store/hooks";
+import { useAppSelector } from "../Store/hooks";
 import "./PreviousSteps.css";
-import { selectedMethod } from "../Store/Reducers";
 interface PreviousStepProps {
   currentStep: number;
   goToStep: (step: number) => void;

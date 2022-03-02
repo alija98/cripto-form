@@ -1,17 +1,3 @@
-// export interface singleSelectInterface {
-//   name: string;
-//   value?: number;
-// }
-// interface initialStateInterface {
-//   cripto: singleSelectInterface[];
-//   promo: singleSelectInterface[];
-// }
-
-// const initalState: initialStateInterface = {
-//   cripto: [{ name: "", value: 1 }],
-//   promo: [{ name: "" }],
-// };
-
 export interface selectedMethod {
   name: string;
   icon: string;
